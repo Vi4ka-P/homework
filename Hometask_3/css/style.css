@@ -1,0 +1,129 @@
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	background-color: #D8D8D8;
+	}
+
+.wrapper {
+	margin: 0 auto;
+	padding:  50px;
+	width: 1300px;
+	background-color: white;
+	box-shadow: 0 0 5px 0 black; /*1 значение смещение влево, Второе - смещение вниз, 3 - радиус, 4-увеличение, 5 - цвет с прозрачностью в RGBA */
+	}
+
+/*HEADER*/
+h1 {
+	font-size: 40px;
+	font-family: verdana;
+	margin-left: 10px; 
+	color: black;
+}
+
+header {
+	padding-top: 10px;
+	margin-bottom: 40px;
+		}
+
+.top-line {
+	margin-top: 40px;
+	position: relative;
+	overflow: hidden;
+	background: grey;
+}
+
+.top-line li {
+	float: left;
+}
+
+.top-line a {
+	display: block;
+	color: white;
+	line-height: 50px;
+	text-decoration: none;
+	padding: 0 50px;
+	font-size: 15px;
+}
+
+.top-line a:hover {
+	background: #4a4a4a;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+
+/*CONTENT*/
+.content {
+	position: relative;
+	overflow: hidden;
+}
+.sidebar {
+	float: left;
+	width: 260px;
+}
+.sidebar-menu {
+	border: 1px solid #333;
+}
+
+.sidebar-menu li {
+	border-top: 1px solid #c8c8c8;
+}
+.sidebar-menu a {
+	display: block;
+	padding-left: 20px;
+	line-height: 40px;
+	color: grey;
+	text-decoration: none;
+	transition: 0,2s all; 
+	}
+.sidebar-menu a:hover {
+	color: #000;
+	background: #f3f3f3;
+	padding-left: 35px;
+}
+.product {
+	float: right;
+	width: 980px;
+}
+.product-image {
+	padding: 40px 0;
+	border: 1px solid #c8c8c8;
+	text-align: center;
+}
+img {
+	width: 80%;
+	}
+.product-description {
+	line-height: 21px;
+	font-size: 16px;
+	color: #2c2c2c;
+	padding: 30px 22px 0 22px;
+}
+
+/*FOOTER*/
+footer {
+	padding: 50px 0;
+}
+.footer-menu {
+	position: relative;
+	overflow: hidden;
+	background: #e1e1e1;
+}
+.footer-menu li {
+	float: left;
+	list-style: none;
+	line-height: 40px;
+}
+.footer-menu a {
+	display: block;
+	text-decoration: none;
+	color: #2c2c2c;
+	padding: 0 50px;
+}
+.footer-menu .copyright {
+	float: right;
+	padding-right: 25px;
+}
+.footer-menu a:hover {
+	text-decoration: underline;
+}
