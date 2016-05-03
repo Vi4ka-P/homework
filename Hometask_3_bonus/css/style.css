@@ -1,0 +1,67 @@
+
+body {
+	font-family: Arial, Tahoma, sans-serif;
+	background-color: #0E0E0E;
+	}
+
+.wrapper {
+	margin: 0 auto;
+	padding:  100px;
+	width: 900px;
+	background-image: url(../img/background.gif);
+	}
+
+header {
+	color: #F3F0F0;
+}
+
+.logo {
+	float: left;
+	margin-left: 45px;
+}
+
+.logo img {
+	width: 80%;
+}
+
+.contacts {
+	float: right;
+	margin-right: 50px;
+	margin-top: 70px;
+}
+
+.contacts p {
+	font-size: 11px;
+}
+
+.box img {
+	position: relative;
+}
+
+.top-unit {
+	margin-top: 121px;
+	text-align: center;
+}
+
+.lower-unit {
+	margin-top: 40px;
+	text-align: center;
+}
+
+.box {
+	width: 270px;
+	display: inline-block;
+	color: white;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+
+footer {
+	margin-top: 190px;
+	text-align: center;
+	color: white;
+	font-family: tahoma;
+	font-size: 12px;
+
+}
+
